@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酒吧网站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>欢迎来到我们的酒吧</h1>
+    <p>放松，享受美好时光</p>
+</header>
+
+<nav>
+    <a href="#home">主页</a>
+    <a href="#menu">菜单</a>
+    <a href="#contact">联系我们</a>
+    <a href="#reviews">客户评价</a>
+</nav>
+
+<!-- 主页 -->
+<section id="home">
+    <h2>酒吧简介</h2>
+    <p>欢迎来到我们的酒吧！我们提供各式各样的鸡尾酒、啤酒和美食，打造舒适、放松的环境，适合聚会和享受悠闲时光。</p>
+    <img src="bar.jpg" alt="酒吧环境" width="100%">
+</section>
+
+<!-- 菜单 -->
+<section id="menu">
+    <h2>菜单</h2>
+    <div class="menu-item">
+        <span>经典鸡尾酒</span>
+        <span>￥50</span>
+    </div>
+    <div class="menu-item">
+        <span>黑啤酒</span>
+        <span>￥30</span>
+    </div>
+    <div class="menu-item">
+        <span>威士忌</span>
+        <span>￥80</span>
+    </div>
+    <div class="menu-item">
+        <span>啤酒拼盘</span>
+        <span>￥40</span>
+    </div>
+</section>
+
+<!-- 联系我们 -->
+<section id="contact">
+    <h2>联系我们</h2>
+    <p><strong>地址:</strong> 北京市朝阳区酒吧街1号</p>
+    <p><strong>电话:</strong> 010-12345678</p>
+    <p><strong>营业时间:</strong> 每天 18:00 - 02:00</p>
+    <p><strong>地图:</strong></p>
+    <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<!-- 客户评价 -->
+<section id="reviews">
+    <h2>客户评价</h2>
+    <p>“这是我最喜欢的酒吧，环境超棒，饮品非常好喝！” - 张三</p>
+    <p>“每次来这里都有新发现，推荐他们的经典鸡尾酒！” - 李四</p>
+    <p>“很适合朋友聚会，气氛特别好。” - 王五</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 酒吧名称 | 保留所有权利</p>
+</footer>
+
+</body>
+</html>
